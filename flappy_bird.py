@@ -181,7 +181,7 @@ class Pipe():
         :return: None
         """
         # draw top
-        win.blit(self.PIPE_TOP, (self.x, self.top))
+        # win.blit(self.PIPE_TOP, (self.x, self.top))
         # draw bottom
         win.blit(self.PIPE_BOTTOM, (self.x, self.bottom))
 
